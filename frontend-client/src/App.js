@@ -30,6 +30,7 @@ function App() {
         </div>
 
       <div className = "chat-input-box">
+
       <textarea className = "chat-input-textarea" placeholder = "Type your message here"></textarea>
       </div>
       </section>
