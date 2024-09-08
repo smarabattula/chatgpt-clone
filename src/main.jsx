@@ -1,10 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import App from './App.jsx'
-import './index.css'
+import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import HomePage from './routes/homePage/homePage';
 import DashboardPage from './routes/dashboardPage/dashboardPage';
+import HomePage from './routes/homePage/homePage';
 import ChatPage from './routes/chatPage/chatPage';
 import RootLayout from './layouts/rootLayout/rootLayout';
 import DashboardLayout from './layouts/dashboardLayout/dashboardLayout';

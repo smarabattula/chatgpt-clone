@@ -21,10 +21,10 @@ const rootLayout = () => {
             <div className='user'>
             <SignedOut>
 
-      </SignedOut>
-      <SignedIn>
-        <UserButton />
-      </SignedIn>
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
             </div>
         </header>
         <main>
