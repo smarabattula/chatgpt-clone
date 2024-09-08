@@ -20,7 +20,7 @@ const rootLayout = () => {
             </Link>
             <div className='user'>
             <SignedOut>
-        <SignInButton />
+
       </SignedOut>
       <SignedIn>
         <UserButton />
