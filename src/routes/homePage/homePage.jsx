@@ -14,7 +14,7 @@ const HomePage = () => {
                 <h1>LLM DEV AI</h1>
                 <h2>Boost your productivity!</h2>
                 <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora velit nesciunt culpa consectetur, incidunt beatae at animi aliquid rerum neque aliquam porro obcaecati ea debitis dolore ullam, inventore sit omnis!</h3>
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Get Started</button>
+                <Link to="/dashboard" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Get Started</Link>
             </div>
             <div className='right'>
                 <div className = 'imgContainer'>
@@ -22,7 +22,6 @@ const HomePage = () => {
                         <div className='bg'></div>
                     </div>
                     <img src = '/bot.png' className='bot'></img>
-                </div>
                 <div className='typeContainer'>
                     <img
                     src={
@@ -57,6 +56,8 @@ const HomePage = () => {
                         cursor={true}
                         omitDeletionAnimation={true}
                         />
+                </div>
+
                 </div>
             </div>
         </div>
