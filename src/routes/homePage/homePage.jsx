@@ -57,8 +57,14 @@ const HomePage = () => {
                         omitDeletionAnimation={true}
                         />
                 </div>
-
                 </div>
+            </div>
+        </div>
+        <div className='terms'>
+            <img src = '/logo.png' alt = "" />
+            <div className='links'>
+                <Link to="/">Terms of Service</Link>
+                <Link to="/">Privacy Policy</Link>
             </div>
         </div>
 </div>
