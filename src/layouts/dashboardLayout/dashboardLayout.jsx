@@ -17,7 +17,10 @@ const dashboardLayout = () => {
     if(!isLoaded) return "Loading...";
     return (
         <div className='dashboardLayout'>
-            <div className='menu'><ChatList></ChatList></div>
+            <div className='menu'>
+                <ChatList>
+                </ChatList>
+            </div>
             <div className='content'>
                 <Outlet />
             </div>

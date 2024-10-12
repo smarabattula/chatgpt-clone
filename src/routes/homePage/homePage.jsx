@@ -1,17 +1,18 @@
 import { Link } from 'react-router-dom';
 import './homePage.css';
 import { TypeAnimation } from 'react-type-animation';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import { AppConfigContext } from '../../AppConfigContext';
 
 const HomePage = () => {
     const [typingStatus, setTypingStatus] = useState("human1");
-
-    return (
+    const {app_name} = useContext(AppConfigContext);
+        return (
         <div>
         <div className = 'homePage'>
             <img className='orbital' src='/orbital.png'></img>
             <div className='left'>
-                <h1>LLM DEV AI</h1>
+                <h1>{app_name}</h1>
                 <h2>Boost your productivity!</h2>
                 <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora velit nesciunt culpa consectetur, incidunt beatae at animi aliquid rerum neque aliquam porro obcaecati ea debitis dolore ullam, inventore sit omnis!</h3>
                 <Link to="/dashboard" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Get Started</Link>
