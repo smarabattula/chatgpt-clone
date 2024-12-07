@@ -11,6 +11,11 @@
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "imagekitio-react": "^4.2.0",
+    "openai": "^4.76.0",
     "react": "19.0.0-rc-8b08e99e-20240713",
     "react-dom": "19.0.0-rc-8b08e99e-20240713",
     "react-router-dom": "^6.26.1",

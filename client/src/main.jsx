@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import DashboardPage from './routes/dashboardPage/dashboardPage';
-import HomePage from './routes/homePage/homePage';
-import ChatPage from './routes/chatPage/chatPage';
-import RootLayout from './layouts/rootLayout/rootLayout';
-import DashboardLayout from './layouts/dashboardLayout/dashboardLayout';
+import DashboardPage from './routes/dashboardPage/dashboardPage.jsx';
+import HomePage from './routes/homePage/homePage.jsx';
+import ChatPage from './routes/chatPage/chatPage.jsx';
+import RootLayout from './layouts/rootLayout/rootLayout.jsx';
+import DashboardLayout from './layouts/dashboardLayout/dashboardLayout.jsx';
 import SignInPage from './routes/signInPage/signInPage.jsx';
 import SignUpPage from './routes/signUpPage/signUpPage.jsx';
 import AppConfigContext from './AppConfigContext.jsx';
